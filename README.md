@@ -75,7 +75,7 @@ By default, this project is configured to proxy incoming HTTPS traffic to a loca
 ### Forwarding to a different Application
 By default, `tailginx` forwards requests to `host.docker.internal:1234` (LMStudio). If you want to expose a different app:
 
-1. Open [nginx.conf](file:///Users/vizionik/tailginx/nginx.conf).
+1. Open [nginx.conf](./nginx.conf).
 2. Modify the `proxy_pass` directive to target your app's port or address:
    ```nginx
    # Example: Forwarding to a local React app running on port 3000
